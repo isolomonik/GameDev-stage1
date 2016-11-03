@@ -5,8 +5,8 @@ public class DoorTrigger : MonoBehaviour {
     public GameObject door;
 
     void OnTriggerEnter(Collider smbd) {
-        if (smbd.CompareTag("Player")) { 
-       // door.GetComponent<MeshRenderer>().
+        if (smbd.CompareTag("Player")) {
+            door.GetComponent<MeshRenderer>().transform.Translate(Vector3.up * 1f * 10f);
        }
 	}
 
@@ -14,7 +14,7 @@ public class DoorTrigger : MonoBehaviour {
     {
         if (smbd.CompareTag("Player"))
         {
-            // door.GetComponent<MeshRenderer>().
+            door.GetComponent<MeshRenderer>().transform.Translate(Vector3.down * 1f * 10f);
         }
     }
 }
