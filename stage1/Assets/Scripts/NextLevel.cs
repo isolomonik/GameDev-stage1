@@ -23,7 +23,7 @@ public class NextLevel : MonoBehaviour {
         {
              door.transform.position = startPosition+(new Vector3(0, 800f/dist, 0))  ;
            // Debug.Log(transform.Find("DoorText").position);
-            Debug.Log(dist);
+           // Debug.Log(dist);
             text.GetComponent<TextMesh>().color = Color.Lerp(Color.green, Color.black, dist /( cMaxDistance * cMaxDistance));
           }
 
