@@ -8,7 +8,7 @@ public class L2LightOn : MonoBehaviour {
         if (smbd.CompareTag("Player")) {
 
             if (Input.GetKeyUp("e")) {
-GameObject.FindGameObjectWithTag("switch").GetComponent<Script>.
+//GameObject.FindGameObjectWithTag("switch").GetComponent<Script>.
             }
             
         }
