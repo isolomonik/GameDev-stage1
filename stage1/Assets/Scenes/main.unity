@@ -344,31 +344,31 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: 41d8507f70e0669468c77922f199ae48, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.400636
+      value: -13.387237
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 41d8507f70e0669468c77922f199ae48, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.70000005
+      value: 0.700065
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 41d8507f70e0669468c77922f199ae48, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 15.501207
+      value: 15.496531
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 41d8507f70e0669468c77922f199ae48, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.0011939995
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 41d8507f70e0669468c77922f199ae48, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.2655194
+      value: -0.13998015
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 41d8507f70e0669468c77922f199ae48, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.0033279543
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 41d8507f70e0669468c77922f199ae48, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.96410555
+      value: 0.99014807
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 41d8507f70e0669468c77922f199ae48, type: 3}
       propertyPath: m_RootOrder
@@ -376,7 +376,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 41d8507f70e0669468c77922f199ae48, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -30.845001
+      value: -15.783001
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 41d8507f70e0669468c77922f199ae48, type: 3}
       propertyPath: m_Enabled
@@ -385,6 +385,14 @@ Prefab:
     - target: {fileID: 100002, guid: 41d8507f70e0669468c77922f199ae48, type: 3}
       propertyPath: m_Name
       value: Good Jack Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 41d8507f70e0669468c77922f199ae48, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.34800002
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 41d8507f70e0669468c77922f199ae48, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.187
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41d8507f70e0669468c77922f199ae48, type: 3}

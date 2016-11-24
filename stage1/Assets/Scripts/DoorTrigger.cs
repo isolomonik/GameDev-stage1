@@ -8,7 +8,7 @@ public class DoorTrigger : MonoBehaviour {
     {
         if (smbd.CompareTag("Player"))
         {
-            SceneManager.LoadScene(0);
+           // SceneManager.LoadScene(0);
         }
     }
 }
