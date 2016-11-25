@@ -1,32 +1,22 @@
 fileFormatVersion: 2
-guid: 1a4e277a532df484ea4259f690567061
-timeCreated: 1480020146
+guid: 3d584f95520045c458a2fbd5a43f432d
+timeCreated: 1480088461
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: ball_New_Material_5
-    100002: //RootNode
-    100004: grips_New_Material_6
-    100006: pin_New_Material_3
-    100008: rings_New_Material_4
-    400000: ball_New_Material_5
-    400002: //RootNode
-    400004: grips_New_Material_6
-    400006: pin_New_Material_3
-    400008: rings_New_Material_4
-    2300000: ball_New_Material_5
-    2300002: grips_New_Material_6
-    2300004: pin_New_Material_3
-    2300006: rings_New_Material_4
-    3300000: ball_New_Material_5
-    3300002: grips_New_Material_6
-    3300004: pin_New_Material_3
-    3300006: rings_New_Material_4
-    4300000: ball_New_Material_5
-    4300002: grips_New_Material_6
-    4300004: pin_New_Material_3
-    4300006: rings_New_Material_4
+    100000: //RootNode
+    100002: Bowling_Pin_HighRez
+    100004: Bowling_Pin_LowRez
+    400000: //RootNode
+    400002: Bowling_Pin_HighRez
+    400004: Bowling_Pin_LowRez
+    2300000: Bowling_Pin_HighRez
+    2300002: Bowling_Pin_LowRez
+    3300000: Bowling_Pin_HighRez
+    3300002: Bowling_Pin_LowRez
+    4300000: Bowling_Pin_HighRez
+    4300002: Bowling_Pin_LowRez
   materials:
     importMaterials: 1
     materialName: 0
