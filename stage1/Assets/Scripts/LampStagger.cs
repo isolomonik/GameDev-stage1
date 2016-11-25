@@ -2,26 +2,22 @@
 using System.Collections;
 
 public class LampStagger : MonoBehaviour {
-    private int state;
+    private bool state;
     public GameObject lamp;
    public  GameObject[] l2light;
     // Use this for initialization
     void Start () {
-        state = 1;
+        state = false;
     //    GameObject[] l2light = GameObject.FindGameObjectsWithTag("l2light") as GameObject[];
 	}
 
     public void SetLightOn() {
-        state = 2;
+        state = !state;
     }
 
-    public void SetLightOff()
-    {
-        state = 1;
-    }
-
+   
     void Update () {
-        if (state == 1)
+        if (!state)
         {
             lamp.GetComponent<Light>().range = 150;
             lamp.GetComponent<Light>().intensity =Mathf.Lerp(0.5f, 10f, Random.Range(0.1f, 10f));
