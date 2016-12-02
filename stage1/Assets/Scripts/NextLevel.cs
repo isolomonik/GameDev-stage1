@@ -1,40 +1,48 @@
 ﻿using UnityEngine;
-using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class NextLevel : MonoBehaviour {
-
-    private const float cMaxDistance = 20f;
-    public GameObject player;
-    public GameObject door;
-    public GameObject text;
-    private float dist;
-    private Vector3 startPosition;
-
-    private void Start()
+namespace Assets.Scripts
+{
+    public class NextLevel : MonoBehaviour
     {
-        startPosition = transform.position;
-        Debug.Log(startPosition);
-    }
-    private void Update()
-    {
-        dist = (transform.position - player.transform.position).sqrMagnitude;
-        if (dist < cMaxDistance * cMaxDistance)
+        private readonly float _cMaxDistance = 20f;
+        public GameObject Player;
+        public GameObject Door;
+        public GameObject Text;
+        private float _dist;
+        private Vector3 _startPosition;
+
+        private void Start()
         {
-             door.transform.position = startPosition+(new Vector3(0, 800f/dist, 0))  ;
-           // Debug.Log(transform.Find("DoorText").position);
-           // Debug.Log(dist);
-            text.GetComponent<TextMesh>().color = Color.Lerp(Color.green, Color.black, dist /( cMaxDistance * cMaxDistance));
-          }
+            _startPosition = transform.position;
+            Debug.Log(_startPosition);
+        }
 
-         else {door.transform.position = startPosition;
-            text.GetComponent<TextMesh>().color = Color.black;
+        private void Update()
+        {
+            _dist = (transform.position - Player.transform.position).sqrMagnitude;
+            if (_dist < _cMaxDistance*_cMaxDistance)
+            {
+                Door.transform.position = _startPosition + (new Vector3(0, 800f/_dist, 0));
+                // Debug.Log(transform.Find("DoorText").position);
+                // Debug.Log(dist);
+                Text.GetComponent<TextMesh>().color = Color.Lerp(Color.green, Color.black,
+                    _dist/(_cMaxDistance*_cMaxDistance));
+            }
+
+            else
+            {
+                Door.transform.position = _startPosition;
+                Text.GetComponent<TextMesh>().color = Color.black;
+            }
+        }
+
+        void OnTriggerEnter(Collider smbd)
+        {
+            if (smbd.CompareTag("Player"))
+            {
+                SceneManager.LoadScene("Level2");
+            }
         }
     }
-
-    void OnTriggerEnter(Collider smbd) {
-        if (smbd.CompareTag("Player")){
-           SceneManager.LoadScene("Level2");
-    }
-   }
 }
