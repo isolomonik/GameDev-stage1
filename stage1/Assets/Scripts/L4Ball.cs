@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class L4Ball : MonoBehaviour {
-    private float _power=1000f;
+    private float _power=5000f;
     private int _timerPressKey=1;
     
     // Use this for initialization
@@ -18,7 +18,7 @@ public class L4Ball : MonoBehaviour {
 	}
 
     void OnMouseUp() {
-        GetComponent<Rigidbody>().AddForce((_power + _timerPressKey*100f) * transform.forward, ForceMode.Force);
+        GetComponent<Rigidbody>().AddForce((_power + _timerPressKey*500f) * transform.forward, ForceMode.Force);
         _timerPressKey = 1;
     }
 }

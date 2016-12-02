@@ -103,7 +103,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012859917156, guid: 3a276a84d6a4cc8459b3f8deab0bd90e, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.84
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 4000012859917156, guid: 3a276a84d6a4cc8459b3f8deab0bd90e, type: 2}
       propertyPath: m_LocalPosition.z
@@ -673,7 +673,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012859917156, guid: 3a276a84d6a4cc8459b3f8deab0bd90e, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.73
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 4000012859917156, guid: 3a276a84d6a4cc8459b3f8deab0bd90e, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1021,6 +1021,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Replacer: {fileID: 776833665}
+  Ball: {fileID: 385539001}
 --- !u!65 &1292482934
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1403,7 +1404,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012859917156, guid: 3a276a84d6a4cc8459b3f8deab0bd90e, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.74
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 4000012859917156, guid: 3a276a84d6a4cc8459b3f8deab0bd90e, type: 2}
       propertyPath: m_LocalPosition.z
