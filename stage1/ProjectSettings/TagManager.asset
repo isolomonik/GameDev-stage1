@@ -7,6 +7,7 @@ TagManager:
   - l2light
   - pin
   - Ball
+  - Picture
   layers:
   - Default
   - TransparentFX
