@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4391599, g: 0.48739403, b: 0.56758237, a: 1}
+  m_IndirectSpecularColor: {r: 0.43916005, g: 0.4873942, b: 0.5675825, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -528,7 +528,7 @@ Prefab:
     - target: {fileID: 224000010983808850, guid: 892ff85a03e7fcf498200dd84e401e03,
         type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 224000010983808850, guid: 892ff85a03e7fcf498200dd84e401e03,
         type: 2}
@@ -598,6 +598,11 @@ Prefab:
     - target: {fileID: 1000012383216748, guid: 892ff85a03e7fcf498200dd84e401e03, type: 2}
       propertyPath: m_Name
       value: Canvas (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000010983808850, guid: 892ff85a03e7fcf498200dd84e401e03,
+        type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 892ff85a03e7fcf498200dd84e401e03, type: 2}
@@ -1123,7 +1128,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1382985253
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1588,6 +1593,22 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &2129935290 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+  m_PrefabInternal: {fileID: 1962026664}
+--- !u!114 &2129935296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2129935290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccdd9a19605bce44ba12b7356cc59d41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ButtonMore: {fileID: 1382985252}
 --- !u!1 &2136732330
 GameObject:
   m_ObjectHideFlags: 0
